@@ -1,0 +1,25 @@
+# Ignore macOS system files
+.DS_Store
+
+# Node modules and build artifacts
+node_modules
+/build
+/dist
+/package
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Miscellaneous
+.dfx
+target
+/.mops
+/.output
+/.nuxt
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
